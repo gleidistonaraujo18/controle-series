@@ -3,7 +3,7 @@
         @csrf
         <div class="form-group">
             <label for="name" class="form-label">Nome</label>
-            <input type="name" name="name" id="name" class="form-control">
+            <input type="text" name="name" id="name" class="form-control">
         </div>
 
         <div class="form-group">
@@ -19,6 +19,5 @@
         <button class="btn btn-primary mt-3">
             Registrar
         </button>
-
     </form>
 </x-layout>
